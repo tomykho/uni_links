@@ -40,3 +40,7 @@ late final uriLinkStream = linkStream.transform<Uri?>(
     },
   ),
 );
+
+Stream<Uri?> getUriLinksStream() {
+  return uriLinkStream;
+}
